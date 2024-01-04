@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    display: flex;
+}
+.logoncc{
+    text-align: center;
+    margin-left: 500px;
+}
+.vertical-menu {
+    background:black;
+    width: 200px;
+    background-color: ba;
+    padding-top: 20px;
+}
+
+.vertical-menu a {
+    
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.vertical-menu a:hover {
+    background-color: #5c5c5c;
+    color: white;
+}
+
+.vertical-menu a.active {
+    color: white;
+}
+
+main {
+    
+    margin: 0;
+    padding: 0px;
+ /* //   text-align: center; */
+    width: 100%;
+    height: 935px;
+
+}
+main .logoncc{
+    width: 310px;
+    height: 122px;
+   
+    /* margin: 50px; */
+
+}
+.box1{
+    background-color: #efefef;
+    padding: 10px;  
+    margin: 20px;
+
+}
+
+.box1 p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;;
+
+};
+.box1_span{
+    justify-content: center;
+
+    background-color: aqua
+};
+.box1 span{
+    justify-content: center;
+
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100px;
+};
+ 
+/* .end{
+    background-color: aqua;
+  box-sizing: border-box    
+}; */
+
+.text-with-images {
+    display: flex;
+
+}
+
+.text-image {
+    float: left;
+    padding: 20px;
+    width: 400px;
+}
+
+
+.text-image p {
+    color: #333;
+}
+.titile{
+    width: 260px;
+    height: 252px;
+    float: right;
+}
